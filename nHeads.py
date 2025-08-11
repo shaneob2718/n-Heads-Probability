@@ -12,7 +12,7 @@ Timeflag=0
 Setsize=0
 
 Trialnum=int(input("How many trials would you like to run? \n"))
-Setsize=int(input("How big would you like each data set to be? \n"))
+Setsize=int(input("How many coin flips per trial? \n"))
 
 while Timeflag != 1:
 	t0=time.time() # Sets the initial time
